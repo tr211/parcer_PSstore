@@ -1,0 +1,188 @@
+[
+    {
+        "country": "United States",
+        "title": "God of War",
+        "price": "$9.99$19.99",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Canada",
+        "title": "God of War",
+        "price": "$9.99$19.99",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "United Kingdom",
+        "title": "God of War",
+        "price": "\u00a37.99\u00a315.99",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Australia",
+        "title": "God of War",
+        "price": "$12.47$24.95",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "New Zealand",
+        "title": "God of War",
+        "price": "$17.47$34.95",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Hong Kong",
+        "title": "God of War",
+        "price": "HK$148.00",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Taiwan",
+        "title": "God of War",
+        "price": "NT$590",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Singapore",
+        "title": "God of War",
+        "price": "SGD29.17",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Malaysia",
+        "title": "God of War",
+        "price": "RM\u00a079.00",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Indonesia",
+        "title": "God of War",
+        "price": "Rp\u00a0309,000",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Thailand",
+        "title": "God of War",
+        "price": "THB\u00a0845.00",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "India",
+        "title": "God of War",
+        "price": "Rs\u00a0749Rs\u00a01,499",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Saudi Arabia",
+        "title": "God of War",
+        "price": "$8.99$17.99",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "United Arab Emirates",
+        "title": "God of War",
+        "price": "$8.99$17.99",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "South Africa",
+        "title": "God of War",
+        "price": "R\u00a0189.50R\u00a0379.00",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Turkey",
+        "title": "God of War",
+        "price": "249,50\u00a0TL499,00\u00a0TL",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Poland",
+        "title": "God of War",
+        "price": "39,50\u00a0zl79,00\u00a0zl",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Norway",
+        "title": "God of War",
+        "price": "kr\u00a0119,50kr\u00a0239,00",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Sweden",
+        "title": "God of War",
+        "price": "109.50\u00a0Kr219.00\u00a0Kr",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Denmark",
+        "title": "God of War",
+        "price": "Kr\u00a074,50Kr\u00a0149,00",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Finland",
+        "title": "God of War",
+        "price": "\u20ac9,97\u20ac19,95",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Greece",
+        "title": "God of War",
+        "price": "\u20ac9.99\u20ac19.99",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Ireland",
+        "title": "God of War",
+        "price": "\u20ac9.99\u20ac19.99",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Hungary",
+        "title": "God of War",
+        "price": "3.745\u00a0Ft7.490\u00a0Ft",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Czech Republic",
+        "title": "God of War",
+        "price": "234,50\u00a0Kc469,00\u00a0Kc",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Slovakia",
+        "title": "God of War",
+        "price": "\u20ac9.99\u20ac19.99",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Bulgaria",
+        "title": "God of War",
+        "price": "19,95\u00a0BGN39,90\u00a0BGN",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Romania",
+        "title": "God of War",
+        "price": "44.95\u00a0RON89.90\u00a0RON",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Croatia",
+        "title": "God of War",
+        "price": "\u20ac9,99\u20ac19,99",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Slovenia",
+        "title": "God of War",
+        "price": "9,99\u00a0\u20ac19,99\u00a0\u20ac",
+        "publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "country": "Israel",
+        "title": "God of War",
+        "price": "ILS\u00a048.00ILS\u00a096.00",
+        "publisher": "Sony Interactive Entertainment"
+    }
+]

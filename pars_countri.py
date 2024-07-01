@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup as bs
 for lokal json file 
 variable "game" need uncomment
 '''
-game: str = input('enter game: ')
+# game: str = input('enter game: ')
 
 def scraperPS(game: str)->list:
     '''
@@ -74,14 +74,14 @@ def scraperPS(game: str)->list:
     return game_list
                 
 if __name__== '__main__':
-    # pass
+    pass
 # '''
 # if need lokal json file with game
 # uncomment code below
 # '''
-  scrap = scraperPS(game)
-  scrap_dicts = [game.dict() for game in scrap]
+#   scrap = scraperPS(game)
+#   scrap_dicts = [game.dict() for game in scrap]
 
-with open('games_table.json', 'w') as game_fi:
-    json.dump(scrap_dicts, game_fi, indent=4)
-print('Data has bin writen')
+# with open('games_table.json', 'w') as game_fi:
+#     json.dump(scrap_dicts, game_fi, indent=4)
+# print('Data has bin writen')

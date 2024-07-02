@@ -1,19 +1,16 @@
-import json
 from pydantic import BaseModel
 import requests
 from bs4 import BeautifulSoup as bs
 
-'''
-for lokal json file 
-variable "game" need uncomment
-'''
 # game: str = input('enter game: ')
+class Game(BaseModel):
+    country: str
+    title: str
+    price: str
+    publisher: str
 
 def scraperPS(game: str)->list:
-    '''
-    function retern list of objects with 
-    price from all countries realetet PS store
-    '''      
+          
     countries_dict = {
     'us': 'United States', 'ca': 'Canada', 'gb': 'United Kingdom',
       'de': 'Germany', 'fr': 'France', 'it': 'Italy', 'es': 'Spain',
@@ -30,19 +27,11 @@ def scraperPS(game: str)->list:
                           }
     
     search_game = game.replace(' ','-')
-    
-
-    class Game(BaseModel):
-        country: str
-        title: str
-        price: str
-        publisher: str
-        
     game_list: list = []
+    
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'\
                 'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0'\
                   'Safari/537.36'}
-
 
     for k, v in countries_dict.items():
         url: str = f'https://www.playstation.com/en-{k}/games/{search_game}/'
@@ -69,19 +58,7 @@ def scraperPS(game: str)->list:
                     publisher = publisher_elem.text.strip()
                     game_list.append(Game(country=v, title=game_title, price=game_price, publisher=publisher))
 
-    
-             
     return game_list
-                
-if __name__== '__main__':
-    pass
-# '''
-# if need lokal json file with game
-# uncomment code below
-# '''
-#   scrap = scraperPS(game)
-#   scrap_dicts = [game.dict() for game in scrap]
 
-# with open('games_table.json', 'w') as game_fi:
-#     json.dump(scrap_dicts, game_fi, indent=4)
-# print('Data has bin writen')
+if __name__=='__main__':
+  pass

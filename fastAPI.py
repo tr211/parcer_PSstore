@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 import uvicorn
-from pars_countri import scraperPS
+from pars_countri import scraperPS, Game
 
 app = FastAPI()
 
 @app.get('/show_table/{game_name}')
-def show_table(game_name):
+def show_table(game_name)->Game:
     list_of_games = scraperPS(game_name)
     scrap_dicts = [game_name.dict() for game_name in list_of_games]
 

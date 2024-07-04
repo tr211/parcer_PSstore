@@ -8,7 +8,7 @@ pythonfile = 'country.json'
 fi = os.path.abspath(pythonfile)
 
 @app.get('/show_table/{game_name}')
-def show_table(game_name)->Game:
+def show_table(game_name):
     countries = json_to_dict(fi)
     list_of_games = scraperPS(game_name, countries)
     scrap_dicts = [game_name.dict() for game_name in list_of_games]
